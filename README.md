@@ -66,7 +66,6 @@ Run the application:
     "github": "https://github.com/Dannynsikak/HNG-Backend.git"
     }
     Error (404 Not Found)
-
     json
     {
     "error": "Route not found"
