@@ -8,9 +8,9 @@ app.route("/", info);
 // Public API Route
 app.get("/api/info", (c) => {
   return c.json({
-    email: "nsikakdanny11@gmail.com", // Replace with youri actual email
+    email: "nsikakdanny11@gmail.com",
     timestamp: new Date().toISOString(),
-    github: "https://github.com/your-repo", // Replace with your actual GitHub repo
+    github: "https://github.com/Dannynsikak/HNG-Backend.git",
   });
 });
 
