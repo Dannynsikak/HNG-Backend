@@ -1,0 +1,35 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@hono/hono@^4.6.19": "4.6.19",
+    "jsr:@std/assert@1": "1.0.11",
+    "jsr:@std/internal@^1.0.5": "1.0.5"
+  },
+  "jsr": {
+    "@hono/hono@4.6.19": {
+      "integrity": "5ba1bd0ef74449c0a647f029e29896776c30fb64aefbcef8724af4ce4846791b"
+    },
+    "@std/assert@1.0.11": {
+      "integrity": "2461ef3c368fe88bc60e186e7744a93112f16fd110022e113a0849e94d1c83c1",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    }
+  },
+  "redirects": {
+    "https://deno.land/std/http/server.ts": "https://deno.land/std@0.224.0/http/server.ts"
+  },
+  "remote": {
+    "https://deno.land/std@0.224.0/async/delay.ts": "f90dd685b97c2f142b8069082993e437b1602b8e2561134827eeb7c12b95c499",
+    "https://deno.land/std@0.224.0/http/server.ts": "f9313804bf6467a1704f45f76cb6cd0a3396a3b31c316035e6a4c2035d1ea514"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@hono/hono@^4.6.19",
+      "jsr:@std/assert@1"
+    ]
+  }
+}
