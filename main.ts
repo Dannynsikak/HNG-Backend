@@ -15,11 +15,16 @@ app.use(
 
 app.get("/api/info", (c) => {
   try {
-    return c.json({
+    const response: {
+      email: string;
+      current_datetime: string;
+      github_url: string;
+    } = {
       email: "nsikakdanny11@gmail.com",
-      timestamp: new Date().toISOString(),
-      github: "https://github.com/Dannynsikak/HNG-Backend.git",
-    });
+      current_datetime: new Date().toISOString(),
+      github_url: "https://github.com/Dannynsikak/HNG-Backend.git",
+    };
+    return c.json(response);
   } catch (error) {
     console.error("Error handling request:", error); // logs the error
     return c.json({ error: "Internal Server Error" }, 500);
