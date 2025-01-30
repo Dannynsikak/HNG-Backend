@@ -5,7 +5,13 @@ import { cors } from "@hono/hono/cors";
 const app = new Hono();
 
 // Enable CORS for all routes
-app.use(cors());
+app.use(
+  cors({
+    origin: "*",
+    allowMethods: ["Get"],
+    allowHeaders: ["Content-Type"],
+  })
+);
 
 app.get("/api/info", (c) => {
   try {
