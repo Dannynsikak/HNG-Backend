@@ -22,7 +22,7 @@ app.get("/api/info", (c) => {
     } = {
       email: "nsikakdanny11@gmail.com",
       current_datetime: new Date().toISOString(),
-      github_url: "https://github.com/Dannynsikak/HNG-Backend.git",
+      github_url: "https://github.com/Dannynsikak/HNG-Backend",
     };
     return c.json(response);
   } catch (error) {
