@@ -51,9 +51,7 @@ Run the application:
 # Testing with postman
 
     - Get API Info
-    Endpoint:
-    GET /api/info
-    Request:
+    Endpoint: https://ofonimensik-hng-backend-42.deno.dev/api/info
     Method: GET
     Headers: (required)
     Response:
@@ -89,7 +87,7 @@ Run the application:
 
 Visit the following URL to access the API:
 
-    http://localhost:5555/api/info
+[API-url](https://ofonimensik-hng-backend-42.deno.dev/api/info)
 
 Running the App
 Once the server is running, you should see a message like:
