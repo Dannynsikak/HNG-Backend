@@ -89,6 +89,10 @@ Visit the following URL to access the API:
 
     https://ofonimensik-hng-backend-42.deno.dev/api/info
 
+# Hiring
+
+Looking to hire a Node.js developer? Check out [HNG Node.js](https://hng.tech/hire/nodejs-developers) Developers for experienced professionals.
+
 Running the App
 Once the server is running, you should see a message like:
 
