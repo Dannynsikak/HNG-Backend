@@ -51,7 +51,7 @@ Run the application:
 # Testing with postman
 
     - Get API Info
-    Endpoint: https://ofonimensik-hng-backend-42--dev.deno.dev/api/info
+    Endpoint: https://ofonimensik-hng-backend-42.deno.dev/api/info
     Method: GET
     Headers: (required)
     Response:
@@ -87,7 +87,7 @@ Run the application:
 
 Visit the following URL to access the API:
 
-    https://ofonimensik-hng-backend-42--dev.deno.dev/api/info
+    https://ofonimensik-hng-backend-42.deno.dev/api/info
 
 # Hiring
 
